@@ -1,0 +1,50 @@
+{
+  "name": "04_auto",
+  "version": "1.0.0",
+  "description": "task after 04 mentoring training",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine index.spec.js",
+    "lint": "eslint .",
+    "webpack": "webpack --config ./webpack.config.js"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "eslintIgnore": ["dist/*.js"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreinsideme/epam_js_mentoring.git"
+  },
+  "keywords": [
+    "epam"
+  ],
+  "author": "Tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coreinsideme/epam_js_mentoring/issues"
+  },
+  "homepage": "https://github.com/coreinsideme/epam_js_mentoring#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "jasmine": "^2.8.0",
+    "node-sass": "^4.5.3",
+    "pre-commit": "^1.2.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "moment": "^2.19.1"
+  }
+}
