@@ -4,11 +4,11 @@
   "description": "task after 04 mentoring training",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine index.spec.js",
+    "test": "jasmine index.spec.js", // task 3
     "lint": "eslint .",
     "webpack": "webpack --config ./webpack.config.js"
   },
-  "pre-commit": [
+  "pre-commit": [ // task 4 (it is too long to write pre-commit hook on bash, ps etc., so I've added appropriate npm package)
     "lint",
     "test"
   ],

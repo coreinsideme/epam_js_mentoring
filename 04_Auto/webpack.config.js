@@ -1,3 +1,5 @@
+// All tasks related webpack you can find here
+
 var ExtractTextPlugin  = require("extract-text-webpack-plugin");
 var BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 var webpack  = require("webpack");

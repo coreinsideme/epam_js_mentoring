@@ -1,5 +1,7 @@
+// task 1
+
 {
-    "extends": "airbnb-base",
+    "extends": "airbnb-base", // task 2
     "rules": {
         "quotes": ["warn", "double"],
         "linebreak-style": ["error", "windows"]     
