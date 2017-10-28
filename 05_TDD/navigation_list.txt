@@ -1,0 +1,26 @@
+1. write test for possibility to add two numbers.
+2. implement it. make refactoring.
+
+3. write test for possibility to decrease one number on second.
+4. implement it. make refactoring.
+
+5. write test for possibility to multiply two numbers.
+6. implement it. make refactoring
+
+7. write test for possibility to divide first number on second.
+8. implement it. make refactoring.
+
+9. write test for possibility to calculate exponentiation.
+10. implement it. make refactoring.
+
+11. write test for ignoring any amount of spaces.
+12. implement it. make refactoring.
+
+13. write test for silly statement.
+14. implement it. make refactoring.
+
+15. write test for empty string.
+16. implement it. make refactoring.
+
+To setup server you should run 'npm run server' and visit localhost:8080
+
