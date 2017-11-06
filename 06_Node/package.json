@@ -1,0 +1,27 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "epam node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreinsideme/epam_js_mentoring.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coreinsideme/epam_js_mentoring/issues"
+  },
+  "homepage": "https://github.com/coreinsideme/epam_js_mentoring#readme",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "fast-csv": "^2.4.1"
+  }
+}
